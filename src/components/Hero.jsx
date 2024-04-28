@@ -1,4 +1,5 @@
-import { motion } from "framer-motion";
+import { color, motion } from "framer-motion";
+import { TypeAnimation } from "react-type-animation";
 
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
@@ -10,18 +11,33 @@ const Hero = () => {
         className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
       >
         <div className='flex flex-col justify-center items-center mt-5'>
-          <div className='w-5 h-5 rounded-full bg-[#915EFF]' />
+          <div className='w-5 h-5 rounded-full bg-[#5ef2ff]' />
           <div className='w-1 sm:h-80 h-40 violet-gradient' />
         </div>
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className='text-[#915EFF]'>Adrian</span>
+            Hi, I'm <span className='text-[#5ef2ff]' >Mintae!</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop 3D visuals, user <br className='sm:block hidden' />
-            interfaces and web applications
+            제 좌우명은 미련없이 보내고, 남은것에 감사하고, 새로운 것을 두려워 말자 입니다.
           </p>
+          <TypeAnimation
+            sequence={[
+              // Same substring at the start will only be typed once, initially
+              1200,
+              'My motto is "Let go without hesitation."',
+              1200,
+              'My motto is "Be grateful for what is left."',
+              1200,
+              'My motto is "Do not fear of new things."',
+            ]}
+            speed={50}
+            omitDeletionAnimation={true}
+            repeat={Infinity}
+            className={`${styles.heroSubText} mt-2 text-white-100`}
+            style={{color:"#5ef2ff"}}
+          />
         </div>
       </div>
 
