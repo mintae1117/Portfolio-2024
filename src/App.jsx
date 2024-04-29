@@ -17,7 +17,7 @@ const App = () => {
         </div>
         <Works />
         <Feedbacks />
-        <div className='relative z-0 bg-hero-pattern bg-cover bg-no-repeat bg-center bg-fixed bg-blend-darken bg-black bg-opacity-80'>
+        <div className='relative z-0 bg-universe-pattern bg-cover bg-no-repeat bg-center bg-blend-darken bg-black bg-opacity-50'>
           <Contact />
           <StarsCanvas />
         </div>

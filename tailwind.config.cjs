@@ -20,6 +20,7 @@ module.exports = {
       },
       backgroundImage: {
         "hero-pattern": "url('/src/assets/pxfuel.jpg')",
+        "universe-pattern": "url('/src/assets/universe.jpg')",
       },
     },
   },
