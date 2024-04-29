@@ -11,11 +11,13 @@ const App = () => {
           <Hero />
         </div>
         <About />
-        <Experience />
-        <Tech />
+        <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center bg-fixed'>
+          <Experience />
+          <Tech />
+        </div>
         <Works />
         <Feedbacks />
-        <div className='relative z-0'>
+        <div className='relative z-0 bg-hero-pattern bg-cover bg-no-repeat bg-center bg-fixed bg-blend-darken bg-black bg-opacity-80'>
           <Contact />
           <StarsCanvas />
         </div>
