@@ -38,7 +38,7 @@ const Hero = () => {
               'My motto is "Do not fear of new things."',
             ]}
             speed={50}
-            omitDeletionAnimation={true}
+            deletionSpeed={80}
             repeat={Infinity}
             className={`${styles.heroSubText} mt-2 text-white-100`}
             style={{color:"#8060B6"}}
