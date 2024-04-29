@@ -38,11 +38,11 @@ body{
 }
 
 .violet-gradient {
-  background: #bf61ff;
-  background: linear-gradient(-90deg, #bf61ff 0%, rgba(60, 51, 80, 0) 100%);
+  background: #8060B6;
+  background: linear-gradient(-90deg, #8060B6 0%, rgba(60, 51, 80, 0) 100%);
   background: -webkit-linear-gradient(
     -90deg,
-    #bf61ff 0%,
+    #8060B6 0%,
     rgba(60, 51, 80, 0) 100%
   );
 }
