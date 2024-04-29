@@ -4,6 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+  overflow-x: hidden;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -34,11 +38,11 @@
 }
 
 .violet-gradient {
-  background: #5ef2ff;
-  background: linear-gradient(-90deg, #5ef2ff 0%, rgba(60, 51, 80, 0) 100%);
+  background: #bf61ff;
+  background: linear-gradient(-90deg, #bf61ff 0%, rgba(60, 51, 80, 0) 100%);
   background: -webkit-linear-gradient(
     -90deg,
-    #5ef2ff 0%,
+    #bf61ff 0%,
     rgba(60, 51, 80, 0) 100%
   );
 }

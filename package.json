@@ -20,6 +20,7 @@
     "react-tilt": "^0.1.4",
     "react-type-animation": "^3.2.0",
     "react-vertical-timeline-component": "^3.6.0",
+    "styled-components": "^6.1.8",
     "three": "^0.149.0"
   },
   "devDependencies": {

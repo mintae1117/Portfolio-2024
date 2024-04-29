@@ -3,6 +3,11 @@ import { TypeAnimation } from "react-type-animation";
 
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
+import styled from "styled-components";
+
+const ScrollText = styled.p`
+  margin-left: 10px;
+`;
 
 const Hero = () => {
   return (
@@ -11,16 +16,16 @@ const Hero = () => {
         className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
       >
         <div className='flex flex-col justify-center items-center mt-5'>
-          <div className='w-5 h-5 rounded-full bg-[#5ef2ff]' />
+          <div className='w-5 h-5 rounded-full bg-[#bf61ff]' />
           <div className='w-1 sm:h-80 h-40 violet-gradient' />
         </div>
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className='text-[#5ef2ff]' >Mintae!</span>
+            Hi, I'm <span className='text-[#bf61ff]' >Mintae!</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            제 좌우명은 미련없이 보내고, 남은것에 감사하고, 새로운 것을 두려워 말자 입니다.
+            안녕하세요. 저는 <span className='text-[#bf61ff]' >김민태</span>라고 합니다.
           </p>
           <TypeAnimation
             sequence={[
@@ -36,7 +41,7 @@ const Hero = () => {
             omitDeletionAnimation={true}
             repeat={Infinity}
             className={`${styles.heroSubText} mt-2 text-white-100`}
-            style={{color:"#5ef2ff"}}
+            style={{color:"#bf61ff"}}
           />
         </div>
       </div>
@@ -59,7 +64,9 @@ const Hero = () => {
             />
           </div>
         </a>
-        <p style={{marginLeft:"10px"}}>Scroll down ⬇️</p>
+        <ScrollText>
+        Scroll down
+        </ScrollText>
       </div>
     </section>
   );
