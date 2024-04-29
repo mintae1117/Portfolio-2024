@@ -6,6 +6,7 @@ import { ComputersCanvas } from "./canvas";
 import styled from "styled-components";
 
 const ScrollText = styled.p`
+  cursor: pointer;
   margin-left: 10px;
 `;
 
@@ -64,9 +65,11 @@ const Hero = () => {
             />
           </div>
         </a>
-        <ScrollText>
-        Scroll down
-        </ScrollText>
+        <a href='#about'>
+          <ScrollText>
+            Scroll down
+          </ScrollText>
+        </a>
       </div>
     </section>
   );
