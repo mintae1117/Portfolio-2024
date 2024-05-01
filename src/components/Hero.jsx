@@ -22,10 +22,10 @@ const Hero = () => {
         </div>
 
         <div>
-          <h1 className={`${styles.heroHeadText} text-white`}>
+          <h1 className={`${styles.heroHeadText} text-white animate-slidein300 opacity-0`}>
             Hi, I'm <span className='text-[#5A4481]' >Mintae!</span>
           </h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
+          <p className={`${styles.heroSubText} mt-2 text-white-100 animate-slidein700 opacity-0`}>
             안녕하세요. 저는 <span className='text-[#5A4481]' >김민태</span>라고 합니다.
           </p>
           <TypeAnimation
