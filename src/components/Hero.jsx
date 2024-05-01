@@ -17,16 +17,16 @@ const Hero = () => {
         className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
       >
         <div className='flex flex-col justify-center items-center mt-5'>
-          <div className='w-5 h-5 rounded-full bg-[#5D4A8D]' />
+          <div className='w-5 h-5 rounded-full bg-[#5A4481]' />
           <div className='w-1 sm:h-80 h-40 violet-gradient' />
         </div>
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className='text-[#5D4A8D]' >Mintae!</span>
+            Hi, I'm <span className='text-[#5A4481]' >Mintae!</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            안녕하세요. 저는 <span className='text-[#5D4A8D]' >김민태</span>라고 합니다.
+            안녕하세요. 저는 <span className='text-[#5A4481]' >김민태</span>라고 합니다.
           </p>
           <TypeAnimation
             sequence={[
@@ -42,7 +42,7 @@ const Hero = () => {
             deletionSpeed={80}
             repeat={Infinity}
             className={`${styles.heroSubText} mt-2 text-white-100`}
-            style={{color:"#5D4A8D"}}
+            style={{color:"#5A4481"}}
           />
         </div>
       </div>
