@@ -29,13 +29,14 @@ const Hero = () => {
             안녕하세요. 저는 <span className='text-[#5A4481]' >김민태</span>라고 합니다.
           </p>
           <TypeAnimation
+            preRenderFirstString={true}
             sequence={[
               // Same substring at the start will only be typed once, initially
               3200,
               'My motto is "Let go without hesitation."',
-              2000,
+              3000,
               'My motto is "Be grateful for what is left."',
-              2000,
+              3000,
               'My motto is "Do not fear of new things."',
             ]}
             speed={50}
