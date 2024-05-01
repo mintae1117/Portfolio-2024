@@ -56,6 +56,7 @@ const ComputersCanvas = () => {
 
   return (
     <Canvas
+      className="animate-slidein400 opacity-0"
       frameloop='demand'
       shadows
       dpr={[1, 2]}

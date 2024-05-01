@@ -17,8 +17,10 @@ module.exports = {
         },
       },
       animation: {
-        slidein300: "slidein 1s ease 300ms forwards",
-        slidein700: "slidein 1s ease 700ms forwards",
+        slidein100: "slidein 1s ease 1000ms forwards",
+        slidein200: "slidein 1s ease 2000ms forwards",
+        slidein300: "slidein 1s ease 3000ms forwards",
+        slidein400: "slidein 1s ease 4000ms forwards",
       },
       colors: {
         primary: "#050816",
