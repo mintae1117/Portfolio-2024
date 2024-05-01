@@ -17,10 +17,10 @@ module.exports = {
         },
       },
       animation: {
-        slidein100: "slidein 1s ease 1000ms forwards",
-        slidein200: "slidein 1s ease 2000ms forwards",
-        slidein300: "slidein 1s ease 3000ms forwards",
-        slidein400: "slidein 1s ease 4000ms forwards",
+        slidein100: "slidein 1s ease 700ms forwards",
+        slidein200: "slidein 1s ease 1400ms forwards",
+        slidein300: "slidein 1s ease 2100ms forwards",
+        slidein400: "slidein 1s ease 2800ms forwards",
       },
       colors: {
         primary: "#050816",
