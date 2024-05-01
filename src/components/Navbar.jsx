@@ -42,10 +42,7 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt='logo' className='w-28 object-contain' />
-          <p className='text-white text-[18px] font-bold cursor-pointer flex '>
-            Portfolio
-          </p>
+          <img src={logo} alt='logo' className='w-48 object-contain' />
         </Link>
 
         <ul className='list-none hidden sm:flex flex-row gap-10'>
@@ -54,7 +51,7 @@ const Navbar = () => {
               key={nav.id}
               className={`${
                 active === nav.title ? "text-white" : "text-white"
-              } hover:text-secondary text-[18px] font-medium cursor-pointer`}
+              } hover:text-[#5A4481] text-[18px] font-medium cursor-pointer`}
               onClick={() => setActive(nav.title)}
             >
               <a href={`#${nav.id}`}>{nav.title}</a>
