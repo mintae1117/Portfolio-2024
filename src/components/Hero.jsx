@@ -7,7 +7,9 @@ import styled from "styled-components";
 
 const ScrollText = styled.p`
   cursor: pointer;
-  margin-left: 10px;
+  position: absolute;
+  left: 45px;
+  top: 20px;
 `;
 
 const Hero = () => {
@@ -39,7 +41,7 @@ const Hero = () => {
               2000,
               'My motto is "Do not fear of new things."',
             ]}
-            speed={50}
+            speed={60}
             deletionSpeed={80}
             repeat={Infinity}
             className={`${styles.heroSubText} mt-2 text-white-100 animate-slidein300 opacity-0`}
@@ -65,8 +67,6 @@ const Hero = () => {
               className='w-3 h-3 rounded-full bg-secondary mb-1'
             />
           </div>
-        </a>
-        <a href='#about'>
           <ScrollText>
             Scroll down
           </ScrollText>
