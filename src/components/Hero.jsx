@@ -36,9 +36,9 @@ const Hero = () => {
               // Same substring at the start will only be typed once, initially
               2200,
               'My motto is "Let go without hesitation."',
-              2000,
+              2200,
               'My motto is "Be grateful for what is left."',
-              2000,
+              2200,
               'My motto is "Do not fear of new things."',
             ]}
             speed={60}
