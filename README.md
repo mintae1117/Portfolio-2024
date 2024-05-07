@@ -1,5 +1,5 @@
 # 3D Portfolio React.<br>Link : [바로가기](https://portfolio-2024-brown.vercel.app/)
 
-## 진행중.
-## Still in progress.
+<h3>진행중.<br>
+Still in progress.</h3>
 <p>ThreeJs, React, framer-motion, tailwindcss, react-three-fiber, etc.
