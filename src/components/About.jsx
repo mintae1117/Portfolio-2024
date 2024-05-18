@@ -6,8 +6,9 @@ import { styles } from "../styles";
 import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
+import { Link } from "react-router-dom";
 
-const ServiceCard = ({ index, title, icon }) => (
+const ServiceCard = ({ index, title, icon, link }) => (
   <Tilt className='xs:w-[250px] w-full'>
     <motion.div
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
@@ -30,7 +31,7 @@ const ServiceCard = ({ index, title, icon }) => (
         <h3 className='text-white text-[20px] font-bold text-center'>
           {title}
         </h3>
-        <button>click!</button>
+        <Link to={link}>click!</Link>
       </div>
     </motion.div>
   </Tilt>

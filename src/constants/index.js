@@ -53,18 +53,22 @@ const services = [
   {
     title: "Fronend Developer",
     icon: web,
+    link: "https://www.naver.com/",
   },
   {
     title: "Enthusiastic Thinker",
     icon: mobile,
+    link: "https://www.naver.com/",
   },
   {
     title: "Hard-working Learner",
     icon: backend,
+    link: "https://www.naver.com/",
   },
   {
     title: "Content Creator",
     icon: creator,
+    link: "https://www.naver.com/",
   },
 ];
 
