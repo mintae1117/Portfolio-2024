@@ -15,10 +15,6 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
   carrent,
   jobit,
   tripguide,
@@ -26,6 +22,7 @@ import {
   snoopy,
   moonhair,
   crypto,
+  pokemon,
 } from "../assets";
 
 export const navLinks = [
@@ -162,9 +159,9 @@ const experiences = [
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "포켓몬 게임.",
+    company_name: "Pokemon Game Using KaboomJs",
+    icon: pokemon,
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
     points: [
@@ -175,9 +172,61 @@ const experiences = [
     ],
   },
   {
-    title: "Full stack Developer",
+    title: "진주떡집.",
     company_name: "Meta",
-    icon: meta,
+    icon: pokemon,
+    iconBg: "#E6DEDD",
+    date: "Jan 2023 - Present",
+    points: [
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "트위터 클론코딩.",
+    company_name: "Meta",
+    icon: pokemon,
+    iconBg: "#E6DEDD",
+    date: "Jan 2023 - Present",
+    points: [
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "민플릭스.",
+    company_name: "Meta",
+    icon: pokemon,
+    iconBg: "#E6DEDD",
+    date: "Jan 2023 - Present",
+    points: [
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "화상채팅 앱.",
+    company_name: "Meta",
+    icon: pokemon,
+    iconBg: "#E6DEDD",
+    date: "Jan 2023 - Present",
+    points: [
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "포트폴리오 2024.",
+    company_name: "Meta",
+    icon: pokemon,
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
     points: [
