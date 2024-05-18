@@ -25,6 +25,10 @@ import snoopy from "./company/snoopy.webp";
 import moonhair from "./company/moonhair.png";
 import crypto from "./company/crypto.png";
 import pokemon from "./company/pokemon.png";
+import jinjoo from "./company/jinjoo.png";
+import twitter from "./company/twitter.ico";
+import minflix from "./company/netflix.png";
+import zoom from "./company/zoom.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -59,4 +63,8 @@ export {
   moonhair,
   crypto,
   pokemon,
+  jinjoo,
+  twitter,
+  minflix,
+  zoom,
 };

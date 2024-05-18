@@ -23,7 +23,12 @@ import {
   moonhair,
   crypto,
   pokemon,
+  jinjoo,
+  twitter,
+  minflix,
+  zoom,
 } from "../assets";
+import portfolio from "/public/vite.svg";
 
 export const navLinks = [
   {
@@ -162,7 +167,7 @@ const experiences = [
     title: "포켓몬 게임.",
     company_name: "Pokemon Game Using KaboomJs",
     icon: pokemon,
-    iconBg: "#E6DEDD",
+    iconBg: "#383E56",
     date: "Jan 2023 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
@@ -173,8 +178,8 @@ const experiences = [
   },
   {
     title: "진주떡집.",
-    company_name: "Meta",
-    icon: pokemon,
+    company_name: "Jinjoo Ricecake Website",
+    icon: jinjoo,
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
     points: [
@@ -186,8 +191,8 @@ const experiences = [
   },
   {
     title: "트위터 클론코딩.",
-    company_name: "Meta",
-    icon: pokemon,
+    company_name: "Twitter CLone App",
+    icon: twitter,
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
     points: [
@@ -199,8 +204,8 @@ const experiences = [
   },
   {
     title: "민플릭스.",
-    company_name: "Meta",
-    icon: pokemon,
+    company_name: "Netflix Clone App",
+    icon: minflix,
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
     points: [
@@ -212,9 +217,9 @@ const experiences = [
   },
   {
     title: "화상채팅 앱.",
-    company_name: "Meta",
-    icon: pokemon,
-    iconBg: "#E6DEDD",
+    company_name: "Zoom CLone WebRTC",
+    icon: zoom,
+    iconBg: "#383E56",
     date: "Jan 2023 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
@@ -225,8 +230,8 @@ const experiences = [
   },
   {
     title: "포트폴리오 2024.",
-    company_name: "Meta",
-    icon: pokemon,
+    company_name: "Portfolio 2024",
+    icon: portfolio,
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
     points: [
