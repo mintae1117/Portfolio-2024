@@ -10,9 +10,14 @@ import { experiences } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { styles } from "../styles";
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 const StackTitle = styled.h2`
   margin-bottom: 70px;
+`;
+const Linkdiv = styled.div`
+  margin-top: 10px;
+  margin-left: 15px;
 `;
 
 const ExperienceCard = ({ experience }) => {
@@ -55,6 +60,9 @@ const ExperienceCard = ({ experience }) => {
           </li>
         ))}
       </ul>
+      <Linkdiv>
+        <Link to={experience.link} className='text-[#4493F8] text-[18px] font-bold'>▶️ Link 바로가기!</Link>
+      </Linkdiv>
     </VerticalTimelineElement>
   );
 };
