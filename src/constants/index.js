@@ -1,20 +1,16 @@
 import {
-  mobile,
-  backend,
-  creator,
-  web,
   javascript,
   typescript,
   html,
   css,
   reactjs,
-  redux,
+  //redux,
   tailwind,
   nodejs,
-  mongodb,
+  //mongodb,
   git,
-  figma,
-  docker,
+  //figma,
+  //docker,
   carrent,
   jobit,
   tripguide,
@@ -27,6 +23,9 @@ import {
   twitter,
   minflix,
   zoom,
+  nomad,
+  instagram,
+  github,
 } from "../assets";
 import portfolio from "/public/vite.svg";
 
@@ -52,22 +51,22 @@ export const navLinks = [
 const services = [
   {
     title: "Github Link",
-    icon: web,
+    icon: github,
     link: "https://github.com/mintae1117",
   },
   {
     title: "Instagram Link",
-    icon: mobile,
+    icon: instagram,
     link: "https://www.instagram.com/min_tae1117/",
   },
   {
     title: "Nomadcoders Profile",
-    icon: backend,
+    icon: nomad,
     link: "https://nomadcoders.co/users/mintaekim",
   },
   {
     title: "2024 My Profile",
-    icon: creator,
+    icon: portfolio,
     link: "https://portfolio-2024-psi-vert.vercel.app/",
   },
 ];
