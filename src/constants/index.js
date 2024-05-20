@@ -178,7 +178,7 @@ const experiences = [
     company_name: "Pokemon Game Using KaboomJs",
     icon: pokemon,
     iconBg: "#383E56",
-    date: "Febuary 2024",
+    date: "February 2024",
     points: [
       "포켓몬게임 made with KaboomJs library.",
       "KaboomJs로 옛날 느낌의 간단한 게임들을 만들수 있다 하여 궁금증이 생겨 만들어본 간단한 포켓 몬 게임 입니다.",
