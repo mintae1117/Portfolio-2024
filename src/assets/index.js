@@ -18,6 +18,8 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import firebase from "./tech/firebase.png";
+import vite from "./tech/vite.png";
 
 import snoopy from "./company/snoopy.webp";
 import moonhair from "./company/moonhair.png";
@@ -50,6 +52,8 @@ export {
   tailwind,
   typescript,
   threejs,
+  firebase,
+  vite,
   carrent,
   jobit,
   tripguide,

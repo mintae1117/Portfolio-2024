@@ -15,6 +15,8 @@ import {
   jobit,
   tripguide,
   threejs,
+  firebase,
+  vite,
   snoopy,
   moonhair,
   crypto,
@@ -116,14 +118,14 @@ const technologies = [
     name: "git",
     icon: git,
   },
-  /*{
-    name: "figma",
-    icon: figma,
+  {
+    name: "vite",
+    icon: vite,
   },
   {
-    name: "docker",
-    icon: docker,
-  },*/
+    name: "firebase",
+    icon: firebase,
+  },
 ];
 
 const experiences = [
