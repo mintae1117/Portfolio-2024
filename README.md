@@ -4,4 +4,4 @@
     2024 portfolio.
 </h3>
 
-<p>ThreeJs, React, framer-motion, tailwindcss, react-three-fiber, etc.
+<p>Using / ThreeJs, React, framer-motion, tailwindcss, react-three-fiber, etc.
