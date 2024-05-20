@@ -52,7 +52,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Github Link",
+    title: "Github Repositories",
     icon: github,
     link: "https://github.com/mintae1117",
   },
@@ -67,7 +67,7 @@ const services = [
     link: "https://nomadcoders.co/users/mintaekim",
   },
   {
-    title: "2024 My Profile",
+    title: "2024 My Portfolio",
     icon: portfolio,
     link: "https://portfolio-2024-psi-vert.vercel.app/",
   },
@@ -236,7 +236,7 @@ const experiences = [
     date: "April 2024",
     points: [
       "WebRTC 와 Socket.io 를 공부 하면서 만들어본 실시간 화상채팅 웹 앱 입니다.",
-      "NodeJs 와 WebRTC, ​Socket.io, Javascript, Pug를 써서 구현하였으며 Zoom을 모티브로 만 들었습니다."
+      "NodeJs 와 WebRTC, ​Socket.io, Javascript, Pug를 써서 구현하였으며 Zoom을 모티브로 만들었습니다."
     ],
   },
   {
