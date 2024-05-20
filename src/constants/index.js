@@ -51,24 +51,24 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Fronend Developer",
+    title: "Github Link",
     icon: web,
-    link: "https://www.naver.com/",
+    link: "https://github.com/mintae1117",
   },
   {
-    title: "Enthusiastic Thinker",
+    title: "Instagram Link",
     icon: mobile,
-    link: "https://www.naver.com/",
+    link: "https://www.instagram.com/min_tae1117/",
   },
   {
-    title: "Hard-working Learner",
+    title: "Nomadcoders Profile",
     icon: backend,
-    link: "https://www.naver.com/",
+    link: "https://nomadcoders.co/users/mintaekim",
   },
   {
-    title: "Content Creator",
+    title: "2024 My Profile",
     icon: creator,
-    link: "https://www.naver.com/",
+    link: "https://portfolio-2024-psi-vert.vercel.app/",
   },
 ];
 
@@ -93,10 +93,10 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
-  {
+  /*{
     name: "Redux Toolkit",
     icon: redux,
-  },
+  },*/
   {
     name: "Tailwind CSS",
     icon: tailwind,
@@ -105,10 +105,10 @@ const technologies = [
     name: "Node JS",
     icon: nodejs,
   },
-  {
+  /*{
     name: "MongoDB",
     icon: mongodb,
-  },
+  },*/
   {
     name: "Three JS",
     icon: threejs,
@@ -117,14 +117,14 @@ const technologies = [
     name: "git",
     icon: git,
   },
-  {
+  /*{
     name: "figma",
     icon: figma,
   },
   {
     name: "docker",
     icon: docker,
-  },
+  },*/
 ];
 
 const experiences = [

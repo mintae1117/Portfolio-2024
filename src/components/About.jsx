@@ -31,7 +31,7 @@ const ServiceCard = ({ index, title, icon, link }) => (
         <h3 className='text-white text-[20px] font-bold text-center'>
           {title}
         </h3>
-        <Link to={link}>click!</Link>
+        <Link to={link}>Click!</Link>
       </div>
     </motion.div>
   </Tilt>
