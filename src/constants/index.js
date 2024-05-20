@@ -130,6 +130,7 @@ const technologies = [
 const experiences = [
   {
     title: "문헤어 웹사이트.",
+    link: "https://moonhair.co.kr/",
     company_name: "Moonhair Website",
     icon: moonhair,
     iconBg: "#E6DEDD",
@@ -143,6 +144,7 @@ const experiences = [
   },
   {
     title: "스누피 플래너.",
+    link: "https://mintae1117.github.io/Javascript-Todo-App/",
     company_name: "Snoopy Todo App",
     icon: snoopy,
     iconBg: "#383E56",
@@ -156,6 +158,7 @@ const experiences = [
   },
   {
     title: "크립토트래커 앱.",
+    link: "https://mintae1117.github.io/Crypto-Tracker/",
     company_name: "Crypto Tracker App",
     icon: crypto,
     iconBg: "#383E56",
@@ -169,6 +172,7 @@ const experiences = [
   },
   {
     title: "포켓몬 게임.",
+    link: "https://mt-kaboom-pokemon.netlify.app/",
     company_name: "Pokemon Game Using KaboomJs",
     icon: pokemon,
     iconBg: "#383E56",
@@ -182,6 +186,7 @@ const experiences = [
   },
   {
     title: "진주떡집.",
+    link: "https://jinjood.com/",
     company_name: "Jinjoo Ricecake Website",
     icon: jinjoo,
     iconBg: "#E6DEDD",
@@ -195,6 +200,7 @@ const experiences = [
   },
   {
     title: "트위터 클론코딩.",
+    link: "https://twitter-clone-73087.firebaseapp.com/",
     company_name: "Twitter CLone App",
     icon: twitter,
     iconBg: "#E6DEDD",
@@ -208,6 +214,7 @@ const experiences = [
   },
   {
     title: "민플릭스.",
+    link: "https://minflix-master.vercel.app/",
     company_name: "Netflix Clone App",
     icon: minflix,
     iconBg: "#E6DEDD",
@@ -221,6 +228,7 @@ const experiences = [
   },
   {
     title: "화상채팅 앱.",
+    link: "https://github.com/mintae1117/Websocket-Facetime-Final",
     company_name: "Zoom CLone WebRTC",
     icon: zoom,
     iconBg: "#383E56",
@@ -234,6 +242,7 @@ const experiences = [
   },
   {
     title: "포트폴리오 2024.",
+    link: "https://portfolio-2024-psi-vert.vercel.app/",
     company_name: "Portfolio 2024",
     icon: portfolio,
     iconBg: "#E6DEDD",

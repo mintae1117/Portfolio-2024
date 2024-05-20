@@ -3,14 +3,17 @@ import {
   VerticalTimeline,
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
-import { motion } from "framer-motion";
 
 import "react-vertical-timeline-component/style.min.css";
 
-import { styles } from "../styles";
 import { experiences } from "../constants";
 import { SectionWrapper } from "../hoc";
-import { textVariant } from "../utils/motion";
+import { styles } from "../styles";
+import styled from "styled-components";
+
+const StackTitle = styled.h2`
+  margin-bottom: 70px;
+`;
 
 const ExperienceCard = ({ experience }) => {
   return (
@@ -59,15 +62,9 @@ const ExperienceCard = ({ experience }) => {
 const Experience = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} text-center`}>
-          My Projects and Tech Stacks.
-        </p>
-        <h2 className={`${styles.sectionHeadText} text-center`}>
-          My Timeline Of Projects.
-        </h2>
-      </motion.div>
-
+      <StackTitle className={`${styles.sectionHeadText} text-center`}>
+        Timeline Of My Projects.
+      </StackTitle>
       <div className='mt-20 flex flex-col'>
         <VerticalTimeline>
           {experiences.map((experience, index) => (
