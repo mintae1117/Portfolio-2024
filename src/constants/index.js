@@ -140,7 +140,7 @@ const experiences = [
       "지인이 운영중인 문헤어살롱 웹사이트 입니다.",
       "문헤어에 대해 간단하게 소개할 수 있는 사이트를 만들면 좋겠다며 제안하여 만들어봤습니다.",
       "처음으로 진행해본 프로젝트라 의미가 깊고 웹사이트가 기획되어 디자인, 개발, 배포, 최적화까지 전반적인 과정을 혼자 경험할 수 있었던 프로젝트입니다.",
-      "using / Html, Scss, Css, Bootstrap, Javascript etc."
+      "Using / Html, Scss, Css, Bootstrap, Javascript etc."
     ],
   },
   {
@@ -155,7 +155,7 @@ const experiences = [
       "바닐라 자바스크립트를 공부 하면서 진행한 코딩 챌린지에서 우수작품으로 뽑힌 첫 프로젝트라 적 어 보았습니다.",
       "Local storage의 활용법, Weather-Api 사용법, Vanilla-Javascript의 문법을 공부할 수 있었 던 좋은 경험이었습니다.",
       "디자인은 제가 스누피를 좋아해서 테마를 스누피로 잡고 만들어 봤습니다.",
-      "using / Vanila Javascript, Css, Html etc."
+      "Using / Vanila Javascript, Css, Html etc."
     ],
   },
   {
@@ -169,7 +169,7 @@ const experiences = [
       "간단한 ​Crypto-Tracker 앱 입니다.",
       "React를 공부 하면서 여러가지 hook들과 상태관리 방법(Recoil, redux 등), api 다루기(React- query) 등을 공부 하면서 진행한 프로젝트 입니다.",
       "Theme도 Dark-mode, Light-mode를 넣 어보면서 토글버튼까지 구현한 간단한 프로젝트였습니다.",
-      "using / Typescript, Styled-components, React-query, React-router, Recoil etc."
+      "Using / Typescript, Styled-components, React-query, React-router, Recoil etc."
     ],
   },
   {
@@ -182,7 +182,7 @@ const experiences = [
     points: [
       "포켓몬게임 made with KaboomJs library.",
       "KaboomJs로 옛날 느낌의 간단한 게임들을 만들수 있다 하여 궁금증이 생겨 만들어본 간단한 포켓 몬 게임 입니다.",
-      "using / KaboomJs, Html, Css, Javascipt etc."
+      "Using / KaboomJs, Html, Css, Javascipt etc."
     ],
   },
   {
@@ -196,7 +196,7 @@ const experiences = [
       "친구가 운영중인 진주떡집 웹사이트 입니다. 아직 개발중에 있습니다.",
       "지금은 제품 소개 정도가 끝이지만 추후에 로그인, 장바구니, 결제서비스 까지 개발할 생각입니다.",
       "여러가지 Javascript, Css, Html 요소들과 웹을 배포해서 도메인 연결을 한 후, 검색엔진에 올리 고 최적화 하는데까지 해야하는 것들을 경험할 수 있었던 프로젝트였습니다.",
-      "using / Html, Css, Javascript, Bootsrtap etc."
+      "Using / Html, Css, Javascript, Bootsrtap etc."
     ],
   },
   {
@@ -210,7 +210,7 @@ const experiences = [
       "트위터 클론코딩 앱 입니다.",
       "개인적으로 많은 공을 들여 만든 프로젝트 입니다. 원본 트위터 사이트와 최대한 동일하게 구현하려 고 노력했습니다.",
       "Firebase의 여러 기능들과 React의 수많은 라이브러리들에 대해 또한번 공부할 수 있었던 좋은 경 험이었습니다.",
-      "using / React.js, Typescript, Firebase ( auth, firestoredb, storage, hosting ), React- router-dom, Styled-Components, Emoji-picker-react etc."
+      "Using / React.js, Typescript, Firebase ( auth, firestoredb, storage, hosting ), React- router-dom, Styled-Components, Emoji-picker-react etc."
     ],
   },
   {
@@ -250,7 +250,7 @@ const experiences = [
     points: [
       "3D 기술에 관심이 생기면서 ThreeJs, React-Three-Fiber등을 공부하며 만들어본 포트폴리오 페이지 입니다.",
       "React, ThreeJs, React-Three-Fiber, TailwindCss, Framer-motion 등을 썼습니다.",
-      "ReactJs, Javascript, ThreeJs, React-Three-Fiber, TailwindCss, Framer-motion, React-Hooks, etc"
+      "Using / ReactJs, Javascript, ThreeJs, React-Three-Fiber, TailwindCss, Framer-motion, React-Hooks, etc"
     ],
   },
 ];
