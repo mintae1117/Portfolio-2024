@@ -236,7 +236,8 @@ const experiences = [
     date: "April 2024",
     points: [
       "WebRTC 와 Socket.io 를 공부 하면서 만들어본 실시간 화상채팅 웹 앱 입니다.",
-      "NodeJs 와 WebRTC, ​Socket.io, Javascript, Pug를 써서 구현하였으며 Zoom을 모티브로 만들었습니다."
+      "NodeJs 와 WebRTC, ​Socket.io, Javascript, Pug를 써서 구현하였으며 Zoom을 모티브로 만들었습니다.",
+      "Using / WebSocket, WebRTC, Socket.io, Javascript, Pug, NodeJs, etc."
     ],
   },
   {
@@ -248,7 +249,8 @@ const experiences = [
     date: "May 2024 - Present",
     points: [
       "3D 기술에 관심이 생기면서 ThreeJs, React-Three-Fiber등을 공부하며 만들어본 포트폴리오 페이지 입니다.",
-      "React, ThreeJs, React-Three-Fiber, TailwindCss, Framer-motion 등을 썼습니다."
+      "React, ThreeJs, React-Three-Fiber, TailwindCss, Framer-motion 등을 썼습니다.",
+      "ReactJs, Javascript, ThreeJs, React-Three-Fiber, TailwindCss, Framer-motion, React-Hooks, etc"
     ],
   },
 ];
