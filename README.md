@@ -5,3 +5,4 @@
 </h3>
 
 <p>Using / ThreeJs, React, framer-motion, tailwindcss, react-three-fiber, etc.
+<p>logo => logo.com
