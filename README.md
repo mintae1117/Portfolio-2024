@@ -16,7 +16,7 @@
 
 - `React.js`, `Javascript`
 - `ThreeJs`, `React-Router-Dom`, `Styled-components`, `Framer-motion`
-- `Vite`
+- `Vite`, `TailwindCss`
 - Deploy : `Vercel`
 
 <br>
